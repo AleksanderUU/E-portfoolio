@@ -1,0 +1,210 @@
+/* GridCN component layer
+   Visual primitives correspond to the GridCN HUD/TRON component language:
+   HUD Frame, Data Card, Identity Disc, Timeline, Status Bar, Tags, Terminal and Uplink.
+*/
+.status-bar{height:5px;background:rgba(95,255,238,.08)}.status-bar i{display:block;height:100%;width:100%;background:var(--cyan);box-shadow:0 0 14px rgba(95,255,238,.6)}
+
+/* GridCN component geometry override */
+.hud-frame,
+.hud-corner-frame,
+.data-card,
+.tron-card,
+.panel,
+.status-card,
+.terminal {
+    border-radius: 6px;
+    clip-path: none;
+}
+
+/* FINAL GRIDCN GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{border-radius:6px!important;clip-path:none!important;}
+
+/* FINAL COMPONENT GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{
+  border-radius:6px;
+  clip-path:none;
+}
+.hud{
+  overflow:hidden;
+}
+.button,.tag,.chip-grid span{
+  border-radius:4px;
+}
+
+/* =========================================================
+   GRIDCN COMPONENT PRIMITIVES
+========================================================= */
+
+.gridcn-frame{
+    position:relative;
+    border:1px solid var(--line);
+    border-radius:8px;
+    background:rgba(4,16,17,.88);
+}
+
+.gridcn-frame::before{
+    content:"";
+    position:absolute;
+    top:-1px;
+    left:12px;
+    width:34px;
+    height:1px;
+    background:var(--cyan);
+    box-shadow:0 0 10px var(--cyan);
+}
+
+.gridcn-label{
+    font:9px "Share Tech Mono",monospace;
+    color:var(--muted);
+    letter-spacing:.12em;
+}
+
+.gridcn-accent{
+    color:var(--cyan);
+}
+
+.gridcn-status{
+    color:var(--green);
+    font:9px "Share Tech Mono",monospace;
+    letter-spacing:.08em;
+}
+1~/* GridCN component layer
+   Visual primitives correspond to the GridCN HUD/TRON component language:
+   HUD Frame, Data Card, Identity Disc, Timeline, Status Bar, Tags, Terminal and Uplink.
+*/
+.status-bar{height:5px;background:rgba(95,255,238,.08)}.status-bar i{display:block;height:100%;width:100%;background:var(--cyan);box-shadow:0 0 14px rgba(95,255,238,.6)}
+
+/* GridCN component geometry override */
+.hud-frame,
+.hud-corner-frame,
+.data-card,
+.tron-card,
+.panel,
+.status-card,
+.terminal {
+    border-radius: 6px;
+    clip-path: none;
+}
+
+/* FINAL GRIDCN GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{border-radius:6px!important;clip-path:none!important;}
+
+/* FINAL COMPONENT GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{
+  border-radius:6px;
+  clip-path:none;
+}
+.hud{
+  overflow:hidden;
+}
+.button,.tag,.chip-grid span{
+  border-radius:4px;
+}
+
+/* =========================================================
+   GRIDCN COMPONENT PRIMITIVES
+========================================================= */
+
+.gridcn-frame{
+    position:relative;
+    border:1px solid var(--line);
+    border-radius:8px;
+    background:rgba(4,16,17,.88);
+}
+
+.gridcn-frame::before{
+    content:"";
+    position:absolute;
+    top:-1px;
+    left:12px;
+    width:34px;
+    height:1px;
+    background:var(--cyan);
+    box-shadow:0 0 10px var(--cyan);
+}
+
+.gridcn-label{
+    font:9px "Share Tech Mono",monospace;
+    color:var(--muted);
+    letter-spacing:.12em;
+}
+
+.gridcn-accent{
+    color:var(--cyan);
+}
+
+.gridcn-status{
+    color:var(--green);
+    font:9px "Share Tech Mono",monospace;
+    letter-spacing:.08em;
+}
+1~/* GridCN component layer
+   Visual primitives correspond to the GridCN HUD/TRON component language:
+   HUD Frame, Data Card, Identity Disc, Timeline, Status Bar, Tags, Terminal and Uplink.
+*/
+.status-bar{height:5px;background:rgba(95,255,238,.08)}.status-bar i{display:block;height:100%;width:100%;background:var(--cyan);box-shadow:0 0 14px rgba(95,255,238,.6)}
+
+/* GridCN component geometry override */
+.hud-frame,
+.hud-corner-frame,
+.data-card,
+.tron-card,
+.panel,
+.status-card,
+.terminal {
+    border-radius: 6px;
+    clip-path: none;
+}
+
+/* FINAL GRIDCN GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{border-radius:6px!important;clip-path:none!important;}
+
+/* FINAL COMPONENT GEOMETRY */
+.hud,.panel,.data-card,.project,.terminal,.page-title,.cta{
+  border-radius:6px;
+  clip-path:none;
+}
+.hud{
+  overflow:hidden;
+}
+.button,.tag,.chip-grid span{
+  border-radius:4px;
+}
+
+/* =========================================================
+   GRIDCN COMPONENT PRIMITIVES
+========================================================= */
+
+.gridcn-frame{
+    position:relative;
+    border:1px solid var(--line);
+    border-radius:8px;
+    background:rgba(4,16,17,.88);
+}
+
+.gridcn-frame::before{
+    content:"";
+    position:absolute;
+    top:-1px;
+    left:12px;
+    width:34px;
+    height:1px;
+    background:var(--cyan);
+    box-shadow:0 0 10px var(--cyan);
+}
+
+.gridcn-label{
+    font:9px "Share Tech Mono",monospace;
+    color:var(--muted);
+    letter-spacing:.12em;
+}
+
+.gridcn-accent{
+    color:var(--cyan);
+}
+
+.gridcn-status{
+    color:var(--green);
+    font:9px "Share Tech Mono",monospace;
+    letter-spacing:.08em;
+}
