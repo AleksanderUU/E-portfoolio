@@ -139,3 +139,52 @@
 }
 
 @media(max-width:550px){.project-filter{gap:5px}.project-filter span{padding:6px 7px}}
+
+
+/* =========================================================
+   Portfolio polish pass
+   Keeps the existing visual language while improving
+   readability, spacing and mobile usability.
+   ========================================================= */
+:root {
+  --portfolio-content-max: 1180px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg {
+  max-width: 100%;
+}
+
+a {
+  overflow-wrap: anywhere;
+}
+
+main, .container, .content, .page-container {
+  max-width: var(--portfolio-content-max);
+}
+
+@media (max-width: 768px) {
+  .panel, .data-card, .hud {
+    max-width: 100%;
+  }
+
+  h1, .hero-title, .page-title {
+    line-height: 1.08;
+  }
+
+  p, li {
+    line-height: 1.6;
+  }
+
+  .nav, .navigation {
+    gap: 0.5rem;
+  }
+}

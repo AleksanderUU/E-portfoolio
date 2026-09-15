@@ -124,7 +124,7 @@
 
 .hud::before,
 .hud::after {
-    width: 28px !important;
+    width: 7px !important;
     height: 7px !important;
     pointer-events: none;
 }
@@ -878,6 +878,7 @@ footer{
 
 .timeline article ul{
     margin-top:16px;
+    margin-bottom: 30px;
 }
 
 /* Project cards */
@@ -1028,3 +1029,4 @@ footer{
         min-height:auto;
     }
 }
+
